@@ -15,6 +15,14 @@ export type Movie = {
     vote_count: number;
   };
 
+
+export type SearchResults = {
+  page: number;
+  results: Movie[];
+  total_pages: number;
+  total_results: number;
+};
+
 export type Genre = {
     id:number,
     name:string

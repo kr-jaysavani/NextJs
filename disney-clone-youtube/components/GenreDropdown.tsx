@@ -31,12 +31,12 @@ const GenreDropdown = async  () => {
 
       const response =await fetch(url,options)
       const data:Genres = await response.json()
-      console.log(data); 
+      // console.log(data); 
       
 
   return (
     <DropdownMenu>
-        <DropdownMenuTrigger className="text-white flex justify-center items-center">
+        <DropdownMenuTrigger className="text-white flex justify-center items-center outline-none">
         Genre <ChevronDown className="ml-1" />
       </DropdownMenuTrigger>
       <DropdownMenuContent >
