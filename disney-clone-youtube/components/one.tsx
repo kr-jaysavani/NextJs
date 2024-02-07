@@ -1,7 +1,5 @@
-const x=4
-
-function add(a:number,b:number){
-    return a+b
+const add = ()=>{
+    console.log("add");
 }
 
-export {x,add}
+export default add;
